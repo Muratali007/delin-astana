@@ -46,3 +46,9 @@
 ## Что ещё не сделано
 - Цены есть только у товаров, у которых они были в подписи поста; у остальных «Цена в WhatsApp».
 - Регистрация и вход: кнопки неактивны (disabled), подписаны «скоро».
+
+## Публикация
+- Основной адрес: https://delin.pages.dev (Cloudflare Pages, проект `delin`)
+- Обновить сайт: `npx wrangler pages deploy . --project-name delin --branch main`
+- Копия: https://muratali007.github.io/delin-astana/ (GitHub Pages, обновляется при `git push`)
+- `_headers`: кэш картинок на 30 дней, CSS и JS на 1 день
